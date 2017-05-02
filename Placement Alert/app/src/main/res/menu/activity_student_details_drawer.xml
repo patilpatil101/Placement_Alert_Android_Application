@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="General Info">
+            <menu>
+
+                <item
+            android:id="@+id/nav_companies_visited"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Companies Visited" />
+        <item
+            android:id="@+id/nav_upcoming_companies"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Upcoming Companies" />
+        <item
+            android:id="@+id/nav_latest_update"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Latest Updates" />
+        </menu>
+        </item>
+
+    </group>
+
+    <item android:title="C-DAC Info">
+        <menu>
+            <item
+                android:id="@+id/nav_about_cdac"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="About C-DAC" />
+
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
